@@ -2,7 +2,7 @@
 	Name: IdadeFilme.cpp
 	Author: Mike Bento
 	Date: 19/03/25 21:29
-	Description: Algoritmo que lê a idade e enquada na classificação do filme
+	Description: Algoritmo que lê a idade e enquadra na classificação do filme
 */
 
 #include <stdio.h>

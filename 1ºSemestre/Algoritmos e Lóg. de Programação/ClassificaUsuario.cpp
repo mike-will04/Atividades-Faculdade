@@ -25,7 +25,7 @@ main()
 	printf("Digite seu peso: ");
 	scanf("%f", &peso);
 	
-	imc = peso / (altura * altura);
+	imc = peso / (altura * altura); 
 	
 	if (sexo == 'M' || sexo == 'm') {
 		if (altura < 1.60){
@@ -37,11 +37,11 @@ main()
 		}	
 	} else if (sexo == 'F' || sexo == 'f') {
 		if (altura < 1.50) {
-			printf("Você é Muler\nEstatura: Baixo \nIMC: %.2f", imc);
+			printf("Você é Mulher\nEstatura: Baixo \nIMC: %.2f", imc);
 		} else if (altura > 1.65) {
-			printf("Você é Muler\nEstatura: Alto \nIMC: %.2f", imc);
+			printf("Você é Mulher\nEstatura: Alto \nIMC: %.2f", imc);
 		} else {
-			printf("Você é Muler\nEstatura: Mediana \nIMC: %.2f", imc);
+			printf("Você é Mulher\nEstatura: Mediana \nIMC: %.2f", imc);
 		}
 	} else {
 		puts("ERRO: Digite novamente o seu sexo");
