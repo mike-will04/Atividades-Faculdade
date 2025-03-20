@@ -2,7 +2,7 @@
 	Name: MostrarDados
 	Author: Mike Bento
 	Date: 18/03/25 18:57
-	Description: Programa que lê mostra o nome, idade e altura 
+	Description: Algoritmo que lê mostra o nome, idade e altura 
 */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ main()
 	altura = 0.0;
 	char nome[] = " ";
 	
-	puts("Programa que lê mostra o nome, idade e altura");
+	puts("Algoritmo que lê mostra o nome, idade e altura");
 	printf("Digite seu nome: ");
 	scanf("%s", &nome);
 	printf("Digite sua idade: ");

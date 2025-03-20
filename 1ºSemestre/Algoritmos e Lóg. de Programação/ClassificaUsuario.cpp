@@ -7,7 +7,6 @@
 
 #include <stdio.h>
 #include <locale.h>
-#include <string.h>
 
 main()
 {
@@ -15,7 +14,6 @@ main()
 	
 	float altura, peso, imc;
 	char sexo;
-	char estatura[] = "";
 	
 	altura = peso = imc = 0.0;
 	
@@ -31,25 +29,19 @@ main()
 	
 	if (sexo == 'M' || sexo == 'm') {
 		if (altura < 1.60){
-			strcpy(estatura, "Baixo");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("\nVocê é Homem\nEstatura: Baixo \nIMC: %.2f", imc);
 		} else if (altura > 1.75) {
-			strcpy(estatura, "Alto");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("\nVocê é Homem\nEstatura: Alto \nIMC: %.2f", imc);
 		} else {
-			strcpy(estatura, "Mediana");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("\nVocê é Homem\nEstatura: Mediana \nIMC: %.2f", imc);
 		}	
 	} else if (sexo == 'F' || sexo == 'f') {
 		if (altura < 1.50) {
-			strcpy(estatura, "Baixo");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("Você é Muler\nEstatura: Baixo \nIMC: %.2f", imc);
 		} else if (altura > 1.65) {
-			strcpy(estatura, "Alto");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("Você é Muler\nEstatura: Alto \nIMC: %.2f", imc);
 		} else {
-			strcpy(estatura, "Mediana");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
+			printf("Você é Muler\nEstatura: Mediana \nIMC: %.2f", imc);
 		}
 	}		
 }

@@ -2,7 +2,7 @@
 	Name: ReajustePreco.cpp
 	Author: Mike Bento
 	Date: 18/03/25 19:23
-	Description: Programa que faz o resjuste no preço de acordo com o percentual diigitado pelo usuário
+	Description: Algoritmo que faz o resjuste no preço de acordo com o percentual diigitado pelo usuário
 */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@ main()
 	float preco, reajuste, preco_reajustado;
 	preco = reajuste = preco_reajustado = 0.0;
 	
-	puts("Programa que faz o resjuste no preço");
+	puts("Algoritmo que faz o resjuste no preço");
 	printf("Digite o valor do produto: ");
 	scanf("%f", &preco);
 	printf("Digite o valor do reajuste: ");

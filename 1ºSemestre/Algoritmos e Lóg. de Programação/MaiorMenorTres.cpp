@@ -2,7 +2,7 @@
 	Name: MaiorMenorTres.cpp
 	Author: Mike Bento
 	Date: 19/03/25 19:25
-	Description: Programa que lê 3 números e indica qual deles é o maior
+	Description: Algoritmo que lê 3 números e indica qual deles é o maior
 */
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ main()
 	
 	num1 = num2 = num3 =0;
 	
-	puts("Programa que lê 3 números e indica qual deles é o maior");
+	puts("Algoritmo que lê 3 números e indica qual deles é o maior");
 	printf("Digite o primeiro número: ");
 	scanf("%d", &num1);
 	printf("Digite o segundo número: ");

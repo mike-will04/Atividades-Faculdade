@@ -2,7 +2,7 @@
 	Name: Perimetro
 	Author: Mike Bento
 	Date: 18/03/25 18:33
-	Description: Programa que calcula o perímetro de uma circunferência 
+	Description: Algoritmo que calcula o perímetro de uma circunferência 
 */
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ main()
 	raio = perimetro = 0.0;
 	pi = 3.1416;
 	
-	puts("Programa que calcula o perímetro de uma circunferência");
+	puts("Algoritmo que calcula o perímetro de uma circunferência");
 	printf("Digite o valor do raio: ");
 	scanf("%f", &raio);
 	

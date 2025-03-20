@@ -2,7 +2,7 @@
 	Name: MascFem.cpp
 	Author: Mike Bento 
 	Date: 18/03/25 11:55
-	Description: Programa para identificar o sexo do usuario a partir da sua resposta 
+	Description: Algoritmo para identificar o sexo do usuario a partir da sua resposta 
 */
 
 #include <stdio.h>

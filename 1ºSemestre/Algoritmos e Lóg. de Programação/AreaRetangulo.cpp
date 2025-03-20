@@ -2,7 +2,7 @@
   Name: AreaRetangulo.cpp 
   Author: Mike Bento
   Date: 18/03/25 18:03
-  Description: Programa que calcula a área de um retângulo
+  Description: Algoritmo que calcula a área de um retângulo
 */
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ main()
 	float largura, comprimento, area;
 	largura = comprimento = area = 0.0;
 	
-	puts("Programa que calcula a área de um retângulo");
+	puts("Algoritmo que calcula a área de um retângulo");
 	printf("Digite o valor do comprimento: ");
 	scanf("%f", &comprimento);
 	printf("Digite o valor da largura: ");

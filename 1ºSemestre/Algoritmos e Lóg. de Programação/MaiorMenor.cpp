@@ -2,7 +2,7 @@
 	Name: MaiorMenor.cpp
 	Author: Mike Bento
 	Date: 18/03/25 11:24
-	Description: Programa que lê dois números inteiros e aponte qual deles é o maior 
+	Description: Algoritmo que lê dois números inteiros e aponte qual deles é o maior 
 */
 
 #include <stdio.h> //STanDard Input Output  
