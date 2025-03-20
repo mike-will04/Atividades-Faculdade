@@ -2,7 +2,7 @@
 	Name: ClassificaUsuario.cpp
 	Author: Mike Will
 	Date: 19/03/25 19:38
-	Description: Programa que lê sexo, altura e peso, classifica e exibe uma mensagem
+	Description: Algoritmo que lê sexo, altura e peso, classifica e exibe uma mensagem
 */
 
 #include <stdio.h>
@@ -17,7 +17,7 @@ main()
 	
 	altura = peso = imc = 0.0;
 	
-	puts("Programa que lê sexo, altura e peso, classifica e exibe uma mensagem");
+	puts("Algoritmo que lê sexo, altura e peso, classifica e exibe uma mensagem");
 	printf("Digite o seu sexo (M/F): ");
 	scanf("%c", &sexo);
 	printf("Digite o sua altura: ");
