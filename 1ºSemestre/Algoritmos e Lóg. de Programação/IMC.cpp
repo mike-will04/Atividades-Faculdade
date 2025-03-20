@@ -1,55 +1,32 @@
 /*
-	Name: ClassificaUsuario.cpp
-	Author: Mike Will
-	Date: 19/03/25 19:38
-	Description: Programa que lê sexo, altura e peso, classifica e exibe uma mensagem
+	Name: IMC.cpp
+	Author: Mike Bento
+	Date: 19/03/25 20:50
+	Description: Programa que classica o IMC de uma pessoa
 */
 
-#include <stdio.h>;
-#include <locale.h>;
+#include <stdio.h>
+#include <locale.h>
 #include <string.h>
 
 main()
 {
 	setlocale(LC_ALL,"Portuguese");
 	
-	float altura, peso, imc;
-	char sexo;
-	char estatura[] = "";
+	float peso, altura, imc;
+	char classificacao[] = "";
 	
-	altura = peso = imc = 0.0;
+	peso = altura = imc = 0.0;
 	
-	puts("Programa que lê sexo, altura e peso, classifica e exibe uma mensagem");
-	printf("Digite o seu sexo (M/F): ");
-	scanf("%c", &sexo);
-	printf("Digite o sua altura: ");
-	scanf("%f", &altura);
-	printf("Digite seu peso: ");
+	puts("Programa que classica o IMC de uma pessoa");
+	printf("Digite o seu peso: ");
 	scanf("%f", &peso);
+	printf("Digite a sua altura: ");
+	scanf("%f", &altura);
 	
 	imc = peso / (altura * altura);
 	
-	if (sexo == 'M' || sexo == 'm') {
-		if (altura < 1.60){
-			strcpy(estatura, "Baixo");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		} else if (altura > 1.75) {
-			strcpy(estatura, "Alto");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		} else {
-			strcpy(estatura, "Mediana");
-			printf("\nVocê é Homem\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		}	
-	} else if (sexo == 'F' || sexo == 'f') {
-		if (altura < 1.50) {
-			strcpy(estatura, "Baixo");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		} else if (altura > 1.65) {
-			strcpy(estatura, "Alto");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		} else {
-			strcpy(estatura, "Mediana");
-			printf("Você é Muler\nEstatura: %s \nIMC: %.2f", estatura, imc);
-		}
-	}		
+	if() {
+		
+	}
 }

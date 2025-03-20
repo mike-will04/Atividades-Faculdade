@@ -5,8 +5,8 @@
 	Description: Programa que calcula o perímetro de uma circunferência 
 */
 
-#include <stdio.h>;
-#include <locale.h>;
+#include <stdio.h>
+#include <locale.h>
 
 main()
 {

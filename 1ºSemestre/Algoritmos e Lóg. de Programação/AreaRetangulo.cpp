@@ -5,8 +5,8 @@
   Description: Programa que calcula a área de um retângulo
 */
 
-#include <stdio.h>;
-#include <locale.h>;
+#include <stdio.h>
+#include <locale.h>
 
 main()
 {

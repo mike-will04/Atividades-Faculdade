@@ -5,8 +5,8 @@
 	Description: Programa que lê mostra o nome, idade e altura 
 */
 
-#include <stdio.h>;
-#include <locale.h>;
+#include <stdio.h>
+#include <locale.h>
 
 main()
 {

@@ -5,8 +5,8 @@
 	Description: Programa que lê 3 números e indica qual deles é o maior
 */
 
-#include <stdio.h>;
-#include <locale.h>;
+#include <stdio.h>
+#include <locale.h>
 
 main()
 {
