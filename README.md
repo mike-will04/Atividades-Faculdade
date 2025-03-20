@@ -16,7 +16,7 @@
 As atividades podem envolver diversas tecnologias e linguagens de programação, incluindo:
 
 - **Linguagens:** C, C++
-- **Ferramentas:** VS Code
+- **Ferramentas:** VS Code, DevC++
 
 ## 📁 Organização das Atividades
 
