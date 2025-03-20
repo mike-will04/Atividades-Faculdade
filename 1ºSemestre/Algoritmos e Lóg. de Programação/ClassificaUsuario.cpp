@@ -43,5 +43,7 @@ main()
 		} else {
 			printf("Você é Muler\nEstatura: Mediana \nIMC: %.2f", imc);
 		}
-	}		
+	} else {
+		puts("ERRO: Digite novamente o seu sexo");
+	}	
 }
