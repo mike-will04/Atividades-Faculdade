@@ -20,7 +20,7 @@ main()
 	puts("Algoritmo que lê sexo, altura e peso, classifica e exibe uma mensagem");
 	printf("Digite o seu sexo (M/F): ");
 	scanf("%c", &sexo);
-	printf("Digite o sua altura: ");
+	printf("Digite a sua altura: ");
 	scanf("%f", &altura);
 	printf("Digite seu peso: ");
 	scanf("%f", &peso);
